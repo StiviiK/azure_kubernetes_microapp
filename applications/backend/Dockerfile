@@ -9,7 +9,7 @@ ADD ./src .
 
 # Get node-prune (https://github.com/tj/node-prune)
 RUN apt-get update && \
-    apt-get install -y curl && \
+    apt-get install --no-install-recommends -y curl && \
     curl -sfL https://install.goreleaser.com/github.com/tj/node-prune.sh | bash
 
 # Install dependencies
