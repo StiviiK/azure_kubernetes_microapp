@@ -3,7 +3,7 @@
       "ecmaVersion": 6,
       "sourceType": "script"
     },
-      "env": {
+    "env": {
       "node": true
     },
     "extends": "airbnb-base",
@@ -16,6 +16,7 @@
       "camelcase": [0],
       "linebreak-style": ["error", "windows"],
       "indent": ["error", "tab"],
-      "no-tabs": "off"
+	  "no-tabs": "off",
+	  "no-console":"off"
     }
   }
